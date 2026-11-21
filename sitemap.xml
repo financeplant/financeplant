@@ -2,8 +2,35 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url><loc>https://financeplant.com/</loc><lastmod>2026-11-21</lastmod></url>
   <url><loc>https://financeplant.com/money-manager/</loc><lastmod>2026-11-21</lastmod></url>
-  <url><loc>https://financeplant.com/money-manager/user-guide.html</loc><lastmod>2026-11-21</lastmod></url>
+  <url><loc>https://financeplant.com/money-manager/manual/</loc><lastmod>2026-11-21</lastmod></url>
+  <url><loc>https://financeplant.com/money-manager/manual/getting-started.html</loc><lastmod>2026-11-21</lastmod></url>
+  <url><loc>https://financeplant.com/money-manager/manual/signin-lock.html</loc><lastmod>2026-11-21</lastmod></url>
+  <url><loc>https://financeplant.com/money-manager/manual/dashboard.html</loc><lastmod>2026-11-21</lastmod></url>
+  <url><loc>https://financeplant.com/money-manager/manual/expenses-income.html</loc><lastmod>2026-11-21</lastmod></url>
+  <url><loc>https://financeplant.com/money-manager/manual/reminders.html</loc><lastmod>2026-11-21</lastmod></url>
+  <url><loc>https://financeplant.com/money-manager/manual/splitter.html</loc><lastmod>2026-11-21</lastmod></url>
+  <url><loc>https://financeplant.com/money-manager/manual/loans.html</loc><lastmod>2026-11-21</lastmod></url>
+  <url><loc>https://financeplant.com/money-manager/manual/invoices/index.html</loc><lastmod>2026-11-21</lastmod></url>
+  <url><loc>https://financeplant.com/money-manager/manual/invoices/create.html</loc><lastmod>2026-11-21</lastmod></url>
+  <url><loc>https://financeplant.com/money-manager/manual/invoices/line-items-tax.html</loc><lastmod>2026-11-21</lastmod></url>
+  <url><loc>https://financeplant.com/money-manager/manual/invoices/totals-terms.html</loc><lastmod>2026-11-21</lastmod></url>
+  <url><loc>https://financeplant.com/money-manager/manual/invoices/view-print-share.html</loc><lastmod>2026-11-21</lastmod></url>
+  <url><loc>https://financeplant.com/money-manager/manual/invoices/record-payment.html</loc><lastmod>2026-11-21</lastmod></url>
+  <url><loc>https://financeplant.com/money-manager/manual/invoices/payment-voucher.html</loc><lastmod>2026-11-21</lastmod></url>
+  <url><loc>https://financeplant.com/money-manager/manual/invoices/customer-statement.html</loc><lastmod>2026-11-21</lastmod></url>
+  <url><loc>https://financeplant.com/money-manager/manual/invoices/invoice-layout.html</loc><lastmod>2026-11-21</lastmod></url>
+  <url><loc>https://financeplant.com/money-manager/manual/invoices/masters.html</loc><lastmod>2026-11-21</lastmod></url>
+  <url><loc>https://financeplant.com/money-manager/manual/invoices/aging-revenue.html</loc><lastmod>2026-11-21</lastmod></url>
+  <url><loc>https://financeplant.com/money-manager/manual/invoices/delete-and-rules.html</loc><lastmod>2026-11-21</lastmod></url>
+  <url><loc>https://financeplant.com/money-manager/manual/reports.html</loc><lastmod>2026-11-21</lastmod></url>
+  <url><loc>https://financeplant.com/money-manager/manual/ai-adviser.html</loc><lastmod>2026-11-21</lastmod></url>
+  <url><loc>https://financeplant.com/money-manager/manual/settings.html</loc><lastmod>2026-11-21</lastmod></url>
+  <url><loc>https://financeplant.com/money-manager/manual/backup-restore.html</loc><lastmod>2026-11-21</lastmod></url>
+  <url><loc>https://financeplant.com/money-manager/manual/troubleshooting.html</loc><lastmod>2026-11-21</lastmod></url>
+  <url><loc>https://financeplant.com/money-manager/manual/faq.html</loc><lastmod>2026-11-21</lastmod></url>
   <url><loc>https://financeplant.com/blog/</loc><lastmod>2026-11-21</lastmod></url>
+  <url><loc>https://financeplant.com/blog/dynamics-365/</loc><lastmod>2026-11-21</lastmod></url>
+  <url><loc>https://financeplant.com/blog/tally/</loc><lastmod>2026-11-21</lastmod></url>
   <url><loc>https://financeplant.com/money-manager/features/expenses.html</loc><lastmod>2026-11-21</lastmod></url>
   <url><loc>https://financeplant.com/money-manager/features/income.html</loc><lastmod>2026-11-21</lastmod></url>
   <url><loc>https://financeplant.com/money-manager/features/splitter.html</loc><lastmod>2026-11-21</lastmod></url>
@@ -13,8 +40,6 @@
   <url><loc>https://financeplant.com/money-manager/features/reports.html</loc><lastmod>2026-11-21</lastmod></url>
   <url><loc>https://financeplant.com/money-manager/features/ai-adviser.html</loc><lastmod>2026-11-21</lastmod></url>
   <url><loc>https://financeplant.com/money-manager/features/app-lock.html</loc><lastmod>2026-11-21</lastmod></url>
-  <url><loc>https://financeplant.com/blog/dynamics-365/</loc><lastmod>2026-11-21</lastmod></url>
-  <url><loc>https://financeplant.com/blog/tally/</loc><lastmod>2026-11-21</lastmod></url>
   <url><loc>https://financeplant.com/financeplantapp/privacy.html</loc><lastmod>2026-11-21</lastmod></url>
   <url><loc>https://financeplant.com/financeplantapp/terms.html</loc><lastmod>2026-11-21</lastmod></url>
   <url><loc>https://financeplant.com/financeplantapp/delete-account.html</loc><lastmod>2026-11-21</lastmod></url>

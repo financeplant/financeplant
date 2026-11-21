@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Masters: business, customer, item, tax | Money manager user manual</title>
+<meta name="description" content="Set up the business profile, customers, items and tax codes once, then reuse them.">
+<link rel="canonical" href="https://financeplant.com/money-manager/manual/invoices/masters.html">
+<meta property="og:type" content="website"><meta property="og:site_name" content="Finance Plant">
+<meta property="og:title" content="Masters: business, customer, item, tax | Money manager user manual"><meta property="og:description" content="Set up the business profile, customers, items and tax codes once, then reuse them."><meta property="og:url" content="https://financeplant.com/money-manager/manual/invoices/masters.html"><meta property="og:image" content="https://financeplant.com/logo.png">
+<meta name="twitter:card" content="summary"><meta name="twitter:title" content="Masters: business, customer, item, tax | Money manager user manual"><meta name="twitter:description" content="Set up the business profile, customers, items and tax codes once, then reuse them.">
+<link rel="icon" href="/logo.png">
+<style>
+:root{--navy:#043c64;--navy2:#022a46;--green:#048c14;--cyan:#a5f3fc;--cyan2:#e6fbfd;--ink:#14212b;--muted:#4f6470;--line:#d6eef3;--white:#fff}
+*{box-sizing:border-box}html{scroll-behavior:smooth}
+body{margin:0;font-family:Roboto,system-ui,-apple-system,"Segoe UI",Arial,sans-serif;color:var(--ink);background:var(--white);line-height:1.65;font-size:17px}
+a{color:var(--navy)}a:focus,button:focus{outline:3px solid var(--green);outline-offset:2px}
+img{max-width:100%;height:auto;display:block}
+.container{max-width:1160px;margin:0 auto;padding:0 22px}
+/* header */
+.topbar{background:var(--white);border-bottom:1px solid var(--line);position:sticky;top:0;z-index:50}
+.topbar .container{display:flex;align-items:center;justify-content:space-between;gap:16px;min-height:76px}
+.brand{display:flex;align-items:center;gap:12px;text-decoration:none;color:var(--navy)}
+.brand img{width:52px;height:52px;object-fit:contain}
+.brand .name{font-weight:800;font-size:1.12rem;line-height:1.1}
+.brand .name small{display:block;font-size:.72rem;font-weight:600;color:var(--muted);letter-spacing:.04em;text-transform:uppercase}
+.brand .name b{color:var(--navy)}.brand .name em{font-style:normal;color:var(--green)}
+nav.primary{display:flex;align-items:center;gap:6px;flex-wrap:wrap}
+nav.primary a{text-decoration:none;font-weight:600;padding:9px 13px;border-radius:10px;color:var(--navy)}
+nav.primary a:hover,nav.primary a[aria-current=page]{background:var(--cyan2)}
+.btn{display:inline-flex;align-items:center;gap:8px;background:var(--navy);color:#fff!important;text-decoration:none;font-weight:700;padding:13px 22px;border-radius:12px;border:0;font-size:1rem;cursor:pointer}
+.btn:hover{background:var(--navy2)}
+.btn.green{background:var(--green)}.btn.green:hover{background:#037311}
+.btn.ghost{background:#fff;color:var(--navy)!important;border:2px solid var(--navy)}
+.btn.small{padding:9px 14px;font-size:.92rem}
+/* hero */
+.hero{background:linear-gradient(160deg,var(--cyan) 0%,var(--cyan2) 60%,#fff 100%);padding:56px 0 48px;border-bottom:1px solid var(--line)}
+.hero .grid{display:grid;grid-template-columns:1.1fr .9fr;gap:40px;align-items:center}
+.hero h1{font-size:2.6rem;line-height:1.12;color:var(--navy);margin:.2em 0 .35em;letter-spacing:-.01em}
+.hero p.lead{font-size:1.2rem;color:var(--muted);margin:0 0 1.2em;max-width:34em}
+.hero .logo-card{background:#fff;border-radius:28px;padding:28px;box-shadow:0 14px 40px rgba(4,60,100,.14);text-align:center}
+.hero .logo-card img{width:100%;max-width:340px;margin:0 auto}
+.eyebrow{font-size:.8rem;font-weight:800;letter-spacing:.12em;text-transform:uppercase;color:var(--green)}
+/* sections */
+section.block{padding:52px 0}
+section.block.alt{background:var(--cyan2)}
+h1{color:var(--navy);font-size:2.2rem;line-height:1.2;margin:.2em 0 .4em}
+h2{color:var(--navy);font-size:1.6rem;margin:1.6em 0 .5em;line-height:1.25}
+h3{color:var(--green);font-size:1.15rem;margin:1.3em 0 .35em}
+p{margin:.55em 0}.lead{font-size:1.15rem;color:var(--muted)}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:18px;margin-top:22px}
+.card{background:#fff;border:1px solid var(--line);border-radius:18px;padding:22px;box-shadow:0 4px 14px rgba(4,60,100,.05)}
+.card h3{margin-top:0}.card a.more{font-weight:700;text-decoration:none;color:var(--navy)}
+.card .tag{display:inline-block;font-size:.75rem;font-weight:800;background:var(--cyan);color:var(--navy);padding:3px 9px;border-radius:99px;margin-bottom:8px}
+ul.checks{padding-left:0;list-style:none;margin:.6em 0}ul.checks li{position:relative;padding-left:28px;margin:.45em 0}
+ul.checks li:before{content:"";position:absolute;left:4px;top:.55em;width:11px;height:11px;border-radius:3px;background:var(--green)}
+ol.steps{padding-left:1.4em}ol.steps li{margin:.5em 0}
+.note{background:var(--cyan2);border-left:5px solid var(--green);padding:14px 18px;border-radius:12px;margin:18px 0}
+.warn{background:#fff7e6;border-left:5px solid #d98b00;padding:14px 18px;border-radius:12px;margin:18px 0}
+.fields{width:100%;border-collapse:collapse;margin:14px 0;font-size:.97rem}
+.fields th,.fields td{border:1px solid var(--line);padding:9px 11px;text-align:left;vertical-align:top}
+.fields th{background:var(--cyan2);color:var(--navy);width:30%}
+/* manual layout */
+.manual{display:grid;grid-template-columns:270px 1fr;gap:38px;padding:34px 0 60px;align-items:start}
+aside.toc{position:sticky;top:96px;background:var(--cyan2);border:1px solid var(--line);border-radius:18px;padding:18px 16px;max-height:calc(100vh - 120px);overflow:auto}
+aside.toc h4{margin:.4em 0 .3em;font-size:.78rem;letter-spacing:.1em;text-transform:uppercase;color:var(--green)}
+aside.toc a{display:block;text-decoration:none;padding:6px 10px;border-radius:9px;font-size:.95rem;color:var(--navy)}
+aside.toc a:hover,aside.toc a[aria-current=page]{background:#fff;font-weight:700}
+aside.toc a.sub{padding-left:22px;font-size:.9rem;color:var(--muted)}
+article.doc{min-width:0}
+article.doc h2:first-of-type{margin-top:.4em}
+.crumb{font-size:.9rem;color:var(--muted);margin-bottom:6px}.crumb a{color:var(--muted)}
+.pager{display:flex;justify-content:space-between;gap:14px;margin-top:40px;border-top:1px solid var(--line);padding-top:20px;flex-wrap:wrap}
+.pager a{text-decoration:none;font-weight:700;color:var(--navy);background:var(--cyan2);padding:12px 16px;border-radius:12px}
+/* footer */
+footer.site{background:var(--navy2);color:#d7f2f8;padding:44px 0 28px;margin-top:20px}
+footer.site .cols{display:grid;grid-template-columns:1.4fr 1fr 1fr;gap:28px}
+footer.site h4{color:#fff;margin:.2em 0 .6em;font-size:1rem}
+footer.site a{color:#fff;text-decoration:none;display:block;margin:.35em 0}
+footer.site a:hover{text-decoration:underline}
+footer.site .small{font-size:.9rem;color:#a9cad4;margin-top:24px;border-top:1px solid #1d4b63;padding-top:16px}
+@media(max-width:900px){.hero .grid,.manual,footer.site .cols{grid-template-columns:1fr}aside.toc{position:static;max-height:none}.hero h1{font-size:2rem}}
+.menu-btn{display:none}
+@media(max-width:900px){.menu-btn{display:inline-flex;align-items:center;justify-content:center;width:46px;height:46px;border-radius:12px;border:2px solid var(--navy);background:#fff;color:var(--navy);font-size:1.4rem;cursor:pointer}
+nav.primary{display:none;position:absolute;top:100%;left:0;right:0;background:#fff;border-bottom:1px solid var(--line);flex-direction:column;align-items:stretch;padding:10px 16px 16px;box-shadow:0 10px 24px rgba(4,60,100,.12)}
+nav.primary.open{display:flex}nav.primary a{padding:13px 12px}
+.topbar{position:sticky}.topbar .container{position:relative}}
+.skip{position:absolute;left:-9999px}.skip:focus{left:12px;top:8px;background:#fff;padding:8px 12px;z-index:99}
+</style>
+</head><body>
+<a class="skip" href="#content">Skip to content</a>
+<header class="topbar"><div class="container">
+<a class="brand" href="/" aria-label="Finance Plant home"><img src="/logo.png" alt="Finance Plant logo" width="52" height="52">
+<span class="name"><small>Finance Plant</small><b>Money manager</b> <span style="font-size:.7em;color:#000;font-weight:700">by</span> <em>Finance plant</em></span></a>
+<button class="menu-btn" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="main-nav" onclick="var n=document.getElementById('main-nav');var o=n.classList.toggle('open');this.setAttribute('aria-expanded',o);this.textContent=o?'✕':'☰';">&#9776;</button>
+<nav class="primary" id="main-nav" aria-label="Main"><a href="/">Home</a><a href="/money-manager/">Money Manager</a><a href="/money-manager/manual/" aria-current="page">User manual</a><a href="/blog/">Blog</a><a href="/financeplantapp/support.html">Support</a><a class="btn small green" href="https://play.google.com/store/apps/details?id=com.financeplant.app" rel="noopener">Download</a></nav>
+</div></header>
+<main id="content"><div class="container"><div class="manual"><aside class="toc" aria-label="Manual contents"><a href="/money-manager/manual/" ><b>Manual home</b></a><h4>Getting started</h4><a href="/money-manager/manual/getting-started.html">Install and first launch</a><a href="/money-manager/manual/signin-lock.html">Sign-in and App Lock</a><h4>Daily use</h4><a href="/money-manager/manual/dashboard.html">Dashboard</a><a href="/money-manager/manual/expenses-income.html">Expenses and income</a><a href="/money-manager/manual/reminders.html">Reminders</a><h4>Shared and lending</h4><a href="/money-manager/manual/splitter.html">Group expense splitter</a><a href="/money-manager/manual/loans.html">Loans</a><h4>Invoices (business)</h4><a href="/money-manager/manual/invoices/index.html">Invoices overview</a><a href="/money-manager/manual/invoices/create.html" class="sub">Create an invoice</a><a href="/money-manager/manual/invoices/line-items-tax.html" class="sub">Line items, charges and tax</a><a href="/money-manager/manual/invoices/totals-terms.html" class="sub">Totals, terms and bank details</a><a href="/money-manager/manual/invoices/view-print-share.html" class="sub">View, print, edit and share</a><a href="/money-manager/manual/invoices/record-payment.html" class="sub">Record a payment and settlements</a><a href="/money-manager/manual/invoices/payment-voucher.html" class="sub">Payment receipt voucher</a><a href="/money-manager/manual/invoices/customer-statement.html" class="sub">Customer statement</a><a href="/money-manager/manual/invoices/invoice-layout.html" class="sub">Invoice layout</a><a href="/money-manager/manual/invoices/masters.html" class="sub" aria-current="page">Masters: business, customer, item, tax</a><a href="/money-manager/manual/invoices/aging-revenue.html" class="sub">Aging and revenue reports</a><a href="/money-manager/manual/invoices/delete-and-rules.html" class="sub">Delete rules and invoice status</a><h4>Reports and tools</h4><a href="/money-manager/manual/reports.html">Reports and exports</a><a href="/money-manager/manual/ai-adviser.html">AI Adviser</a><h4>Settings, data and help</h4><a href="/money-manager/manual/settings.html">Settings and security</a><a href="/money-manager/manual/backup-restore.html">Backup and restore</a><a href="/money-manager/manual/troubleshooting.html">Troubleshooting</a><a href="/money-manager/manual/faq.html">Frequently asked questions</a></aside>
+<article class="doc"><p class="crumb"><a href="/">Home</a> &rsaquo; <a href="/money-manager/">Money manager</a> &rsaquo; <a href="/money-manager/manual/">User manual</a> &rsaquo; Masters: business, customer, item, tax</p>
+<h1>Masters: business, customer, item, tax</h1><p class="lead">Masters are saved lists you reuse on every invoice. Set them up first. Find them under <b>Masters &amp; Tools</b> on the Invoices tab.</p><h2>Business Profile</h2><p>Your business name, address, tax number, bank details and contact information. Invoices use this as the <b>Bill From</b> details.</p><h2>Customer Masters</h2><ul class="checks"><li>Add each customer with the legal name, billing address, tax number, email and phone.</li><li>Choose the customer from the list when creating an invoice.</li><li>Update a customer once and every new invoice uses the new details.</li></ul><h2>Item Master</h2><p>Your products or services with description, unit price and tax group. Use <b>Fill from item master</b> on an invoice line to add an item.</p><h2>Tax Master</h2><p>Tax codes and rates. Choose the codes on each line or charge.</p><h2>Entities and currency</h2><p>If you deal with more than one entity, each invoice shows the entity you choose in <b>Bill From</b>. Set the default currency for the business.</p><div class="note">Changes to a master do not change invoices you have already issued. They change new invoices only.</div><h2>Setting up in order</h2><ol class="steps"><li>Business Profile: your name, address, tax number and bank details.</li><li>Tax Master: the tax codes and rates you use.</li><li>Item Master: products and services with unit price and tax group.</li><li>Customer Masters: each customer with billing address and tax number.</li></ol><h2>Example Item Master entry</h2><table class="fields"><tr><th>Item</th><td>Consulting, hourly</td></tr><tr><th>Description</th><td>Monthly accounting support</td></tr><tr><th>Unit price</th><td>75</td></tr><tr><th>Tax group</th><td>Standard</td></tr></table><h2>Keeping masters clean</h2><ul class="checks"><li>Use the same customer name every time, so statements group correctly.</li><li>Delete items you no longer sell, rather than leaving them with old prices.</li><li>Update a customer’s address once in the master, not on each invoice.</li></ul><div class="pager"><a href="/money-manager/manual/invoices/invoice-layout.html">&larr; Invoice layout</a><a href="/money-manager/manual/invoices/aging-revenue.html">Aging and revenue reports &rarr;</a></div><p style="margin-top:26px"><a class="btn green" href="https://play.google.com/store/apps/details?id=com.financeplant.app" rel="noopener">Download Money manager on Google Play</a> <a class="btn ghost" href="/money-manager/manual/">Open the user manual</a></p></article></div></div></main>
+<footer class="site"><div class="container"><div class="cols">
+<div><p style="color:#fff;font-weight:800;font-size:1.1rem;margin:0 0 6px">Money manager by Finance plant</p><p style="margin:0">Track expenses, income, invoices, shared bills, loans and reminders on your Android phone.</p>
+<p style="margin:14px 0 0"><a class="btn small green" href="https://play.google.com/store/apps/details?id=com.financeplant.app" rel="noopener">Download on Google Play</a></p></div>
+<div><h4>Product</h4><a href="/money-manager/">About the app</a><a href="/money-manager/manual/">User manual</a><a href="/blog/">Blog</a></div>
+<div><h4>Legal and help</h4><a href="/financeplantapp/support.html">Support</a><a href="/financeplantapp/privacy.html">Privacy policy</a><a href="/financeplantapp/terms.html">Terms of use</a><a href="/financeplantapp/delete-account.html">Delete account and data</a><a href="mailto:financeplantapp@gmail.com">financeplantapp@gmail.com</a></div>
+</div><div class="small">&copy; Finance Plant. Money manager by Finance plant is an Android app.</div></div></footer>
+</body></html>
